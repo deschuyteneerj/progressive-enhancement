@@ -78,25 +78,49 @@ tr:nth-child(odd) {
 
 li:nth-child(1) {
     background: url(images/bien.png);
-    background-position: 370px;
+    background-position: 320px;
     background-repeat: no-repeat;
     background-size: 1%;
 }
 
 li:nth-child(2) {
     background-image: url(images/mal.png);
-    background-position: 380px;
+    background-position: 330px;
     background-repeat: no-repeat;
     background-size: 1%;
 }
 
 li:nth-child(3) {
     background-image: url(images/chat.png);
-    background-position: 420px;
+    background-position: 370px;
     background-repeat: no-repeat;
-    background-size: 1%;
+    background-size: 2%;
 }
 
 header + p {
     font-weight: bold;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Russo One";
+    src: url("fonts/RussoOne-Regular.ttf");
+}
+
+* {
+    font-family: "Open Sans";
+}
+
+h1, h2 {
+    font-family: "Russo One";
 }
